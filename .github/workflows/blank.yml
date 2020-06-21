@@ -9,6 +9,8 @@ on:
     branches: [ master ]
     paths: 
       - 'app/src/main/java/com/zodani/android/githubactionspractice/*'
+    tags:
+      - v1
   pull_request:
     branches: [ master ]
 
