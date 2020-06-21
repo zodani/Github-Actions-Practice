@@ -8,7 +8,7 @@ on:
   push:
     branches: [ master ]
     paths: 
-      - 'app/*'
+      - 'app/src/main/java/*'
   pull_request:
     branches: [ master ]
 
